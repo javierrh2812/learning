@@ -9,7 +9,9 @@ const Nav: FC<HTMLAttributes<HTMLElement>> = (props): JSX.Element => {
     <Container {...props}>
       <ul>
         <li>
-          <img src={logoImg} alt="Little Lemon Logo" />
+          <Link to="/">
+            <img src={logoImg} alt="Little Lemon Logo" />
+          </Link>
         </li>
         <li>
           <Link to="/">Home</Link>
